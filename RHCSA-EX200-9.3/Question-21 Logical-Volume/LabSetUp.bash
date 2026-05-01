@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "============================================="
+echo " Lab Setup — Q21: Logical Volume"
+echo "============================================="
+echo ""
+echo "This task is performed on SERVERA."
+echo "SSH to servera: ssh root@servera.lab.example.com"
+echo ""
+echo "Prerequisites:"
+echo "  - Q20 (Swap Partition) should be completed first"
+echo "  - /dev/vdb should have free space for a 2G partition"
+echo ""
+echo "Lab setup complete. Read Questions.bash for the task."

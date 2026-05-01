@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "============================================="
+echo " Lab Setup — Q22: Resize Logical Volume"
+echo "============================================="
+echo ""
+echo "This task is performed on SERVERA."
+echo "Prerequisites: Q21 (Logical Volume) must be completed."
+echo ""
+echo "Verify current LV size:"
+echo "  lvdisplay /dev/Developer/Engineer"
+echo "  df -h /mnt/Software"
+echo ""
+echo "Lab setup complete. Read Questions.bash for the task."
