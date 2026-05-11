@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "============================================="
+echo " Lab Setup — Q20: Swap Partition"
+echo "============================================="
+echo ""
+echo "This task is performed on SERVERA."
+echo "SSH to servera: ssh root@servera.lab.example.com"
+echo ""
+echo "Verify available disks:"
+echo "  lsblk"
+echo "  # Look for /dev/vdb (should be 5G, no partitions)"
+echo ""
+echo "Lab setup complete. Read Questions.bash for the task."
