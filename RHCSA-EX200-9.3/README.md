@@ -2,7 +2,7 @@
 
 ## Overview
 
-This lab simulates the **Red Hat Certified System Administrator (RHCSA) EX200** exam based on **RHEL 9.3**. It contains **22 questions** across two servers (serverb and servera), with an automated validation script that scores your work and determines PASS/FAIL at the **70% threshold** — identical to the real exam.
+This lab simulates the **Red Hat Certified System Administrator (RHCSA) EX200** exam based on **RHEL 9.3**. It contains **22 questions** across two servers (serverb and servera), with an automated validation script that scores your work and determines PASS/FAIL at the **70% threshold**
 
 ## Environment
 
