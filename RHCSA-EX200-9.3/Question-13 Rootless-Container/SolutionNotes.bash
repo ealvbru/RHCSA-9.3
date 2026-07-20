@@ -16,6 +16,8 @@ Step 2: Pull the image
   podman pull docker.io/admin034/monitor:latest
 
 Step 3: Create and run the container
+sudo chown -R $USER:$USER /opt/files /opt/processed
+
   podman run -d --name ascii2pdf \
     -v /opt/files:/opt/incoming:Z \
     -v /opt/processed:/opt/outgoing:Z \
