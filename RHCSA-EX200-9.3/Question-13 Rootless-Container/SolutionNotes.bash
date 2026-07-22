@@ -29,6 +29,8 @@ Step 4: Create the systemd user service
   podman generate systemd --name ascii2pdf --new --files
 
 Step 5: Enable the service
+  export XDG_RUNTIME_DIR="/run/user/$(id -u)"
+  export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
   systemctl --user daemon-reload
   systemctl --user start container-ascii2pdf.service
   systemctl --user enable container-ascii2pdf.service
